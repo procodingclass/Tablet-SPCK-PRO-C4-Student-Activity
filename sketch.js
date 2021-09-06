@@ -32,7 +32,7 @@ function setup() {
 
 function draw() {
   //set background color
-  background(180);
+  background("white");
 
   // jump when the space key is pressed
   if (keyDown("space") && trex.y >= 100) {
@@ -77,5 +77,5 @@ function spawnClouds() {
     //adjust the depth
     //Hint : Checkout step 5 image inside screenshots folder
 
-  }
+
 }
