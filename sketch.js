@@ -1,11 +1,13 @@
 var trex, trexRunning;
 var ground, invisibleGround, groundImage;
+var cloudImage;
 
 var score;
 
 function preload() {
   trexRunning = loadAnimation("trex1.png", "trex2.png", "trex3.png");
   groundImage = loadImage("ground2.png");
+  cloudImage = loadImage("cloud.png");
 }
 
 function setup() {
